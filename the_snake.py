@@ -96,7 +96,7 @@ class Snake(GameObject):
             self.direction = self.next_direction
             self.next_direction = None
 
-    # Метод возвращает позицию головы змейки
+    # Метод возвращает координаты головы змейки
     def get_head_position(self):
         return self.positions[0]
 
